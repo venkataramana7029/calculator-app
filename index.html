@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Demonstrating The A Small Calculater App
+        </title>
+        <link rel="stylesheet" href="calculater.css">
+    </head>
+    <body>
+
+        <ul>
+            <h2>Calculate APP</h2>
+            <li >Enter the first value : <input type="number" id="fval"></li>
+            <li >Enter the second value : <input type="number" id="sval"></li>
+
+            <li><input type="button" value="add" onclick="doadd();"> <input type="button" value="sub" onclick="dosub();"> <input type="button" value="mul" onclick="domul();"> <input type="button" value="div" onclick="dodiv();"></li>
+
+            <li class="rblock">
+                the sum is : <span></span>
+
+            </li>
+            
+        </ul>
+        <script src="calculater.js"></script>
+    </body>
+</html>
